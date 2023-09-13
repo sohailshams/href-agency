@@ -1,0 +1,6 @@
+.background {
+  width: 100%;
+  height: 100vh;
+  background: transparent center/cover
+    url("../images/SEVEN_CAPITAL_ONE\_THAMES\ _VALLEY.png") no-repeat;
+}
