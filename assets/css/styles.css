@@ -94,6 +94,36 @@
   padding-left: 15px;
 }
 
-.contact-form {
+.contact {
   margin-top: 129px;
+  background: #fbf8f5 0% 0% no-repeat padding-box;
+  width: 100%;
+  font: normal normal 600 30px/37px Montserrat;
+}
+
+.contact__container {
+  width: 50%;
+  margin: 0 auto;
+  padding: 82px 0;
+}
+
+.contact__container__form__label {
+  display: none !important;
+}
+
+.contact__container__form__input {
+  width: 393px;
+  height: 48px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  padding-left: 8px;
+}
+
+.contact__container__form__textarea {
+  width: 829px;
+  height: 155px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  margin-top: 36px;
+  padding: 8px 0 0 8px;
 }
