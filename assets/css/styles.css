@@ -23,7 +23,7 @@
   left: 187px;
   height: 81px;
   text-align: left;
-  font: normal normal 600 65px/70px Montserrat;
+  font: normal normal 400 65px/70px Montserrat;
   letter-spacing: 0px;
   color: #ffffff;
   text-transform: uppercase;
@@ -143,4 +143,76 @@
 .footer__container__social > i {
   padding-left: 20px;
   color: #000000;
+}
+
+@media (max-width: 1440px) {
+  .contact__container__form__label--email {
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .background__heading {
+    font: normal normal 400 45px/40px Montserrat;
+  }
+
+  .contact__container__form__textarea {
+    width: 393px;
+  }
+}
+
+@media (max-width: 768px) {
+  .background__heading {
+    font: normal normal 400 45px/40px Montserrat;
+    left: 50px;
+  }
+
+  .background__logo {
+    left: 50px;
+  }
+
+  .content-container__contact {
+    flex-direction: column;
+  }
+
+  .content-container__contact__details {
+    justify-content: left;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 425px) {
+  .content-container__content {
+    max-width: 90%;
+  }
+
+  .contact__container__form__input {
+    width: 250px;
+  }
+
+  .contact__container__form__textarea {
+    width: 250px;
+  }
+
+  .footer {
+    text-align: center;
+  }
+
+  .footer__container {
+    flex-direction: column;
+  }
+
+  .footer__container__social {
+    padding: 15px 0;
+  }
+}
+
+@media (max-width: 425px) {
+  .contact__container__form__input {
+    width: 200px;
+  }
+
+  .contact__container__form__textarea {
+    width: 200px;
+  }
 }
