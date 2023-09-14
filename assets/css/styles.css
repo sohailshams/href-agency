@@ -127,3 +127,20 @@
   margin-top: 36px;
   padding: 8px 0 0 8px;
 }
+
+.footer {
+  height: 147px;
+  background: #fbf8f5 0% 0% no-repeat padding-box;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  padding: 79px 79px 0 50px;
+  font: normal normal normal 16px/19px Montserrat;
+}
+
+.footer__container__social > i {
+  padding-left: 20px;
+  color: #000000;
+}
