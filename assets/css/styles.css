@@ -1,4 +1,4 @@
-body {
+.background-container {
   position: relative;
 }
 .background {
@@ -30,4 +30,25 @@ body {
   color: #ffffff;
   text-transform: uppercase;
   opacity: 1;
+}
+
+.background__chevron {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.background__chevron--container {
+  bottom: 49px;
+  opacity: 0.4;
+  width: 69px;
+  height: 69px;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+
+.background__chevron--icon {
+  bottom: 79px;
+  font-size: 40px;
+  color: #ffffff;
 }
