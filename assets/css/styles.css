@@ -1,10 +1,8 @@
 .background-container {
   position: relative;
+  background-color: #ffffff;
 }
 .background {
-  position: absolute;
-  top: 0px;
-  left: 0px;
   width: 100vw !important;
   height: 100vh !important;
   background: transparent center/cover
@@ -51,4 +49,22 @@
   bottom: 79px;
   font-size: 40px;
   color: #ffffff;
+}
+
+.content-container {
+  margin-top: 123px;
+}
+
+.content-container__content {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 55%;
+  color: #000000;
+  font: normal normal normal 30px/37px Montserrat;
+  letter-spacing: 0px;
+}
+
+.content-container__horizontal {
+  width: 130px;
+  margin: 88px auto 88px auto;
 }
