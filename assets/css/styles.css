@@ -144,7 +144,7 @@
   font: normal normal normal 16px/19px Montserrat;
 }
 
-.footer__container__social > i {
+.footer__container__social > a {
   padding-left: 20px;
   color: #000000;
 }
