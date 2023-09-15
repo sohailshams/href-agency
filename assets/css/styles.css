@@ -75,7 +75,6 @@
   gap: 10px;
   width: 70%;
   margin: 0 auto;
-  font: normal normal medium 20px/24px Montserrat;
   letter-spacing: 0px;
   color: #000000;
 }
@@ -92,6 +91,7 @@
 
 .content-container__contact__details__content {
   padding-left: 15px;
+  font: normal normal normal 20px/24px Montserrat;
 }
 
 .contact {
@@ -102,8 +102,8 @@
 }
 
 .contact__container {
-  width: 50%;
-  margin: 0 auto;
+  width: 60%;
+  margin: 0 auto !important;
   padding: 82px 0;
 }
 
@@ -112,11 +112,15 @@
 }
 
 .contact__container__form__input {
-  width: 393px;
+  width: 380px;
   height: 48px;
   border: 1px solid #000000;
   border-radius: 10px;
   padding-left: 8px;
+}
+
+.contact__container__form__label--email {
+  margin-left: 43px;
 }
 
 .contact__container__form__textarea {
@@ -156,8 +160,16 @@
     font: normal normal 400 45px/40px Montserrat;
   }
 
+  .content-container__contact__details__content {
+    font: normal normal normal 18px/24px Montserrat;
+  }
+
   .contact__container__form__textarea {
     width: 393px;
+  }
+
+  .contact__container__form__label--email {
+    margin-left: 0px;
   }
 }
 
@@ -184,6 +196,7 @@
 @media (max-width: 425px) {
   .content-container__content {
     max-width: 90%;
+    font: normal normal normal 25px/37px Montserrat;
   }
 
   .contact__container__form__input {
@@ -192,6 +205,18 @@
 
   .contact__container__form__textarea {
     width: 250px;
+  }
+
+  .background__heading {
+    font: normal normal 400 35px/50px Montserrat;
+  }
+
+  .contact__container {
+    width: 70%;
+  }
+
+  .contact__container__title {
+    font: normal normal 500 22px/30px Montserrat;
   }
 
   .footer {
@@ -207,7 +232,7 @@
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 320px) {
   .contact__container__form__input {
     width: 200px;
   }
