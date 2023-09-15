@@ -3,6 +3,7 @@
   background-color: #ffffff;
 }
 .background {
+  position: relative;
   width: 100vw !important;
   height: 100vh !important;
   background: transparent center/cover
@@ -158,6 +159,7 @@
 @media (max-width: 1024px) {
   .background__heading {
     font: normal normal 400 45px/40px Montserrat;
+    top: 290px;
   }
 
   .content-container__contact__details__content {
@@ -177,6 +179,7 @@
   .background__heading {
     font: normal normal 400 45px/40px Montserrat;
     left: 50px;
+    top: 190px;
   }
 
   .background__logo {
